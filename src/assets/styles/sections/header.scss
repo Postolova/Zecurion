@@ -1,0 +1,22 @@
+.header__top {
+  padding-top: rem(10px);
+  text-align: right;
+}
+
+.header__search {
+  display: inline-flex;
+  margin-right: rem(20px);
+}
+
+.header__search-icon {
+  margin-right: rem(15px);
+  width: rem(20px);
+  height: rem(20px);
+}
+
+.header__search-input {
+  width: rem(140px);
+  border: none;
+  border-bottom: 1px solid $blue;
+  outline: none;
+}
