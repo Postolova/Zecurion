@@ -43,6 +43,10 @@ ul {
   list-style: none;
 }
 
+li {
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: $gray;
@@ -98,9 +102,14 @@ address {
   font-family: "BebasNeueBold";
   font-size: 72px;
   color: $blue;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  line-height: 1;
   &--white {
     color: $white;
+    font-family: "BebasNeueBold";
+    font-size: 72px;
+    margin-top: 10px;
+    line-height: 1;
   }
 }
 
@@ -111,6 +120,7 @@ address {
 }
 
 .main_button--header {
+  font-weight: 600;
   background: transparent;
   color: $red;
   border: 2px solid $red;
