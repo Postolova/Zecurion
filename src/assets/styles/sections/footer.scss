@@ -4,8 +4,8 @@
 }
 
 .footer__top {
-  background-color: #303949;
-  height: 65%;
+  background-color: $blue;
+  min-height: 65%;
   width: 100%;
   padding-top: rem(15px);
 }
@@ -34,30 +34,31 @@
 }
 
 .links__block-list {
-  color: #fff;
+  color: $white;
 }
 
 .links__block-link {
-  color: #fff;
+  color: $lightGray;
   font-weight: 300;
   font-size: rem(12px);
 }
 
 
 .footer__bottom {
-  background-color: #545c6b;
-  height: 35%;
+  background-color: $lightBlue;
+  min-height: 35%;
   width: 100%;
   padding: rem(20px) 0;
 }
 
-.footer__bottom-part {
-  width: 50%;
-}
 
 .footer__bottom-block {
   width: 100%;
   display: flex;
+}
+
+.socials {
+  width: 30%;
 }
 
 .socials__tel {
@@ -78,6 +79,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 70%;
 }
 
 .contacts__input, .contacts__btn {
@@ -98,12 +100,12 @@
 }
 
 .copyright {
-  color: #fff;
+  color: $lightGray;
   font-size: rem(12px);
 }
 
 .phone-number, .contact-us {
-  color: #fff;
+  color: $lightGray;
   font-size: 12px;
   margin-right: rem(10px);
 }
