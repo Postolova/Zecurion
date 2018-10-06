@@ -1,13 +1,21 @@
+.header {
+  width: 100%;
+}
+
 .header__container {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
+  &:first-child {
+    justify-content: flex-end;
+  }
 }
 
 .header__top {
   padding-top: rem(10px);
+  background-color: #f8f9fa;
 }
 
 .header__search {
@@ -29,11 +37,19 @@
 
 .header__contact {
   margin-right: rem(15px);
+  opacity: .8;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .header__lang {
   position: relative;
   margin-right: rem(15px);
+  opacity: .8;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .header__select {
@@ -54,6 +70,13 @@
   right: rem(3px);
   width: rem(10px);
   height: rem(10px);
+}
+
+.header__sign {
+  opacity: .8;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .header__bottom {
@@ -91,4 +114,8 @@
 
 .header__link {
   color: $blue;
+  transition: .2s;
+  &:hover {
+    color: $red;
+  }
 }
