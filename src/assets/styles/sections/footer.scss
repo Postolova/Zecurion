@@ -1,0 +1,44 @@
+.footer__block {
+    width: 100%;
+    height: 300px;
+}
+
+.footer__top {
+    background-color: #303949;
+    height: 70%;
+    width: 100%;
+}
+
+.footer__bottom {
+    background-color: #545c6b;
+    height: 30%;
+    width: 100%;
+}
+
+.links {
+    height: 80%;
+}
+
+.links__list {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.links__block {
+    border: 1px solid #fff;
+    width: 19%;
+    height: 100%;
+    display: inline-block;
+}
+
+.links__block-list {
+    color: #fff;
+}
+
+.links__block-link {
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+}
