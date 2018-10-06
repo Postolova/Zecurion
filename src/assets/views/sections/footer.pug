@@ -1,7 +1,7 @@
 footer.footer
-  .main__container
-    .footer__block
-      .footer__top
+  .footer__block
+    .footer__top
+      .main__container
         .links
           ul.links__list
             li.links__block
@@ -44,5 +44,26 @@ footer.footer
                   a.links__block-link(href="#0") News
                 li.links__block-item
                   a.links__block-link(href="#0") Privacy and cookies
-      .footer__bottom
-
+    .footer__bottom
+      .main__container
+        .footer__bottom-block
+          .socials.footer__bottom-part
+            .socials__icons
+              ul.socials__list
+                li.socials__pic
+                  +icon("social_fb", "socials__pics")
+                li.socials__pic
+                  +icon("social_tw", "socials__pics")
+                li.socials__pic
+                  +icon("social_inst", "socials__pics")
+                li.socials__pic
+                  +icon("social_youtube", "socials__pics")
+            .socials__tel
+              a(href="tel:++18665810999").phone-number Call us +1 866 5810999
+              a.contact-us(href="#0") Contact us
+          .contacts.footer__bottom-part
+            .contacts__mail
+              input.contacts__input(type="text" placeholder='Your email adress')
+              button.contacts__btn(type="button") Sign up for Zecurion news
+            .contacts__copyright
+              span.copyright 	&#169; Zecurion, 2001-2018
