@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Bazar', Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.42;
   color: #383a3c;
@@ -45,7 +45,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #383a3c;
+  color: $gray;
 }
 
 p {

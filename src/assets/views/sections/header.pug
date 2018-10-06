@@ -1,2 +1,13 @@
 header.header
-  .main__container
+  .header__top
+    .main__container
+      .header__search
+        +icon('header_search', 'header__search-icon')
+        input.header__search-input(type="text")
+      a.header__contact(href="#0") Contact us
+      select.header__lang
+        option Ru
+        option En
+      a.header__sign(href="#0") sign in
+  .header__bottom
+    .main__container
