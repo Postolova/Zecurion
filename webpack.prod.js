@@ -35,10 +35,6 @@ module.exports = merge(common, {
             loader: 'css-loader'
           },
           {
-            loader: 'group-css-media-queries-loader',
-            options: { sourceMap: false }
-          },
-          {
             loader: 'postcss-loader',
             options: {
               plugins: [
