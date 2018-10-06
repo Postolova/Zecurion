@@ -1,6 +1,6 @@
 .main__section.register
   .main__container
-    h1.register__heading Register for a free demo
+    h1.main__title Register for a free demo
     form.register__form(action="")
       .form-container
         .form__row
@@ -23,7 +23,12 @@
             input.form__input(type="text")
           label.form__block
             span.form__title Company size
-            input.form__input(type="text")
+            +icon('arrow_down', 'select-arrow')
+            select.form__select.form__input(name="company")
+              option(value="#") 
+              option(value="s") Small
+              option(value="m") Medium
+              option(value="l") Large
         .form__row
           label.form__block
             span.form__title Phone
@@ -32,4 +37,4 @@
             span.form__title Email
             input.form__input(type="text")
         .form__row
-          button(type="submit").form__submit Request a demo
+          button(type="submit").form__submit.main__button Request a demo

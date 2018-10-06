@@ -93,6 +93,16 @@ address {
   margin: 0 auto;
 }
 
+.main__title {
+  font-family: "BebasNeueBold";
+  font-size: 72px;
+  color: $blue;
+  margin-bottom: 80px;
+  &--white {
+    color: $white;
+  }
+}
+
 .main__button {
   font-size: 14px;
   text-transform: uppercase;
@@ -105,9 +115,4 @@ address {
   border: 2px solid $red;
   width: 230px;
   height: 50px;
-  transition: .3s;
-  &:hover {
-    background-color: $red;
-    color: $white;
-  }
 }
