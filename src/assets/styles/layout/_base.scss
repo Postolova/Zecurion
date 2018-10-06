@@ -93,6 +93,16 @@ address {
   margin: 0 auto;
 }
 
+.main__title {
+  font-family: "BebasNeueBold";
+  font-size: 72px;
+  color: $blue;
+  margin-bottom: 80px;
+  &--white {
+    color: $white;
+  }
+}
+
 .main__button {
   font-size: 14px;
   text-transform: uppercase;

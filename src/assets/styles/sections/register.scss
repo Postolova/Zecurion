@@ -34,11 +34,29 @@
 .form__block {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .form__input {
-    width: 100%;
+    width: 210px;
     height: 35px;
+    outline: none;
+}
+
+.form__select {
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+.select-arrow {
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    right: 10px;
+    top: 41px;
 }
 
 .form__submit {
@@ -46,9 +64,7 @@
     height: 35px;
     background-color: $red;
     color: $white;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14px;
+
 }
 
 .form__title {
