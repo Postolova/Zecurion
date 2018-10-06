@@ -1,13 +1,31 @@
 header.header
   .header__top
-    .main__container
+    .header__container
       .header__search
         +icon('header_search', 'header__search-icon')
         input.header__search-input(type="text")
       a.header__contact(href="#0") Contact us
-      select.header__lang
-        option Ru
-        option En
-      a.header__sign(href="#0") sign in
+      .header__lang
+        select.header__select
+          option Ru
+          option En
+        +icon('arrow_down', 'header__lang-arrow')
+      a.header__sign(href="#0") Sign in
   .header__bottom
-    .main__container
+    .header__container
+      .header__logo
+        a.header__logo-link(href="#0")
+          +icon('logo_zecurion', 'header__logo-img')
+      nav.header__nav
+        ul.header__list
+          li.header__item
+            a.header__link(href="#0") Products
+          li.header__item
+            a.header__link(href="#0") Partners
+          li.header__item
+            a.header__link(href="#0") Support
+          li.header__item
+            a.header__link(href="#0") Resources
+          li.header__item
+            a.header__link(href="#0") About
+      button.main__button.main_button--header(type="button") Request а demo

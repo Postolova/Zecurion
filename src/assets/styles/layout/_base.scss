@@ -57,16 +57,6 @@ address {
   font-style: normal;
 }
 
-:valid {
-  color: green;
-  outline-color: green;
-}
-
-:invalid {
-  color: lightcoral;
-  outline-color: red;
-}
-
 // instead of display: none;
 .vshidden {
   position: absolute;
@@ -88,16 +78,31 @@ address {
 }
 
 .main {
-  width: 100%;
-  // display: flex;
+  width: 100%; // display: flex;
   // flex-direction: column;
   // justify-content: space-around;
   text-align: center;
 }
+
 .main__section {
   width: 100%;
 }
+
 .main__container {
   width: 80%;
   margin: 0 auto;
+}
+
+.main__button {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main_button--header {
+  background: transparent;
+  color: $red;
+  border: 2px solid $red;
+  width: 230px;
+  height: 50px;
 }
