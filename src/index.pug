@@ -1,0 +1,21 @@
+include ./assets/views/common/_mixins
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Zecurion
+  body
+    .wrapper
+      include ./assets/views/sections/header
+      main.main
+        include ./assets/views/sections/hero
+        include ./assets/views/sections/prevention
+        include ./assets/views/sections/request
+        include ./assets/views/sections/support
+        include ./assets/views/sections/slider
+        include ./assets/views/sections/interested
+        include ./assets/views/sections/protect
+        include ./assets/views/sections/register
+      include ./assets/views/sections/footer
