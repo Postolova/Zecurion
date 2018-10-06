@@ -1,3 +1,54 @@
 .interested {
     background-color: $white;
 }
+
+.features__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features__column {
+    display: block;
+    background-color: $gray;
+    padding: 20px;
+    width: 190px;
+    height: 480px;
+}
+
+.features__desc {
+    font-weight: 600;
+    color: $white;
+}
+
+.features__head {
+    display: flex;
+    flex-direction: row;
+}
+
+.features__heading {
+    font-size: 24px;
+    color: $white;
+    font-family: "BebasNeueBold";
+}
+
+.features__item {
+    color: $lightGray;
+    font-size: 14px;
+    text-align: left;
+}
+
+.features__img {
+    width: 50px;
+    height: 50px;
+}
+
+.features__description {
+    text-align: left;
+    color: $white;
+}
+
+.features__desc {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
