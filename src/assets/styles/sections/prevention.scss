@@ -1,5 +1,10 @@
 .prevention {
   padding: 50px 0;
+  @include hd {
+    min-height: 1177px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .prevention__titles {

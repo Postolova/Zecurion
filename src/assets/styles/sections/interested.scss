@@ -4,6 +4,11 @@
     clip-path: polygon(0 0, 100% 5%, 100% 96%, 0 100%);
     padding-top: rem(40px);
     padding-bottom: rem(10px);
+    @include hd {
+        min-height: 1100px;
+        display: flex;
+        align-items: center;
+    }
 }
 
 .features__list {
@@ -24,6 +29,11 @@
         min-width: 230px;
         padding: rem(35px) rem(15px);
         height: rem(550px);
+    }
+    @include hd {
+        width: 330px;
+        padding: rem(55px) rem(40px);
+        margin: 0 rem(20px);
     }
 }
 
@@ -100,4 +110,7 @@
 
 .features__text {
     width: 90%;
+    @include hd {
+        font-size: 14px;
+    }
 }

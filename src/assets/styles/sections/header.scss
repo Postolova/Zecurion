@@ -10,18 +10,20 @@
   &:first-child {
     justify-content: flex-end;
   }
-  @include tablets {
+
+  @include laptop {
     width: 90%;
   }
 }
 
 .header__container-bottom {
-  justify-content: center;
+  justify-content: space-between;
   width: 70%;
   margin: 0 auto;
   display: flex;
   @include laptop {
     align-items: center;
+    width: 90%;
   }
 }
 
@@ -100,7 +102,7 @@
 }
 
 .header__logo {
-  min-width: rem(190px);
+  width: rem(204px);
   height: rem(30px);
   margin-right: rem(30px);
   @include laptop {
@@ -110,8 +112,14 @@
 }
 
 .header-btn {
-  min-width: 170px;
+  width: 170px;
   height: 30px;
+  font-size: 14px;
+  @include hd {
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+  }
 }
 
 .header__logo-link {
@@ -139,14 +147,21 @@
 .header__item {
   margin-right: rem(20px);
   @include laptop {
-    font-size: 14px;
+    font-size: rem(14px);
+  }
+  @include hd {
+    margin-right: rem(50px);
   }
 }
 
 .header__link {
   color: $blue;
   transition: .2s;
+  font-size: 14px;
   &:hover {
     color: $red;
+  }
+  @include hd {
+    font-size: rem(18px);
   }
 }
