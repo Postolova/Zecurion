@@ -6,6 +6,9 @@
 
 .advantage__item {
   width: 30%;
+  @include hd {
+    width: 20%;
+  }
 }
 
 .advantage__icon {

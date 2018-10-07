@@ -3,6 +3,10 @@
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   padding: rem(100px) 0;
+  @include hd {
+    min-height: 1177px;
+    padding: rem(120px) 0 rem(50px) 0;
+  }
 }
 
 .hero__box {
@@ -10,6 +14,9 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  @include hd {
+    margin-bottom: 100px;
+  }
 }
 
 .hero__desc {
@@ -40,6 +47,9 @@
   &:last-child {
     margin-bottom: 0;
   }
+  @include hd {
+    font-size: 16px;
+  }
 }
 
 .hero__picture {
@@ -55,12 +65,24 @@
   @include laptop {
     width: 116%;
   }
+  @include hd {
+    width: 118%;
+    margin-top: -19px;
+  }
 
 }
 
 .hero__trusted {
   color: $white;
   margin-bottom: 30px;
+  @include hd {
+    font-size: 44px;
+    margin-bottom: 50px;
+  }
+}
+
+.hero-btn {
+  width: 290px;
 }
 
 .hero__slider {

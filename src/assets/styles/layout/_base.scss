@@ -120,6 +120,13 @@ address {
     @include tablets {
       font-size: 50px;
     }
+    @include hd {
+      font-size: 86px;
+      margin-bottom: 20px;
+    }
+  }
+  @include hd {
+    font-size: 86px;
   }
   @include laptop {
     font-size: 60px;
@@ -146,6 +153,11 @@ address {
       background-color: $red;
       color: $white;
     }
+    @include hd {
+      width: 230px;
+      height: 50px;
+      font-size: 16px;
+    }
   }
   &--red {
     text-transform: uppercase;
@@ -160,6 +172,11 @@ address {
       border: 1px solid $red;
       background-color: $white;
       color: $red;
+    }
+    @include hd {
+      width: 230px;
+      height: 50px;
+      font-size: 16px;
     }
   }
 }

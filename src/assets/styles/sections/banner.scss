@@ -5,6 +5,11 @@
   width: 100%;
   padding: 100px 0;
   margin-top: -20px;
+  @include hd {
+    min-height: 730px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .banner__slider {

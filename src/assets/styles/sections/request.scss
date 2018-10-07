@@ -6,6 +6,11 @@
   clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 96%);
   margin-bottom: -33px;
   padding: 140px 0;
+  @include hd {
+    min-height: 1200px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .request-title {

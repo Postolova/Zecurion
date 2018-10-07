@@ -6,6 +6,9 @@
   clip-path: polygon(0 0, 100% 5%, 100% 96%, 0% 100%);
   display: flex;
   align-items: center;
+  @include hd {
+    min-height: 840px;
+  }
 }
 
 .support__container {
