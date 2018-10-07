@@ -1,3 +1,32 @@
 .main__section.hero
   .main__container
-  
+    .hero__box
+      .hero__desc
+        .hero__title Easy-to-use and easy-to ­implement enterprise DLP
+        ul.hero__list
+          li.hero__item 4 times faster installation compared to other enterprise DLP
+          li.hero__item Perpetual licenses from $60 рег user
+          li.hero__item 50+ preinstalled reports and 2.0+ customization options
+          li.hero__item Policy templates for quick start
+        button.main__button.main__button--red(type="button") Request а demo
+      .hero__picture
+        +image('hero_graphic.png','Graphic', 'hero__picture-img')
+    h2.hero__trusted We аrе trusted by
+    .hero__slider
+      .hero__slider-window
+        ul.hero__slider-list
+          li.hero__slider-item
+            +icon('logo_xbox', 'hero__slider-icon')
+          li.hero__slider-item
+            +icon('logo_infiniti', 'hero__slider-icon')
+          li.hero__slider-item
+            +icon('logo_gshock', 'hero__slider-icon')
+          li.hero__slider-item
+            +icon('logo_ea', 'hero__slider-icon')
+          li.hero__slider-item
+            +icon('logo_dell', 'hero__slider-icon')
+          li.hero__slider-item
+            +icon('logo_github', 'hero__slider-icon')
+      .hero__slider-control
+        button.hero__slider-btn(type='button')
+        button.hero__slider-btn(type='button')

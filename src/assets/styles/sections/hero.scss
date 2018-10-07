@@ -1,6 +1,65 @@
 .hero {
   background-color: $blue;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  padding: rem(100px) 0 rem(210px) 0;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+  padding: rem(100px) 0;
+}
+
+.hero__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.hero__desc {
+  width: 48%;
+  text-align: left;
+  color: $white;
+  margin-right: 50px;
+}
+
+.hero__title {
+  font-size: 60px;
+  font-family: "BebasNeueBold";
+  font-weight: 600;
+  line-height: 1;
+}
+
+.hero__list {
+  list-style-type: disc;
+  margin-bottom: 30px;
+}
+
+.hero__item {
+  font-size: 14px;
+  color: $lightGray;
+  margin-bottom: 15px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.hero__picture {
+  width: 49%;
+}
+
+.hero__picture-img {
+  width: 140%;
+  object-fit: contain;
+}
+
+.hero__slider {
+  width: 100%;
+}
+
+.hero__slider-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.hero__slider-icon {
+  width: 60px;
+  height: 30px;
 }
