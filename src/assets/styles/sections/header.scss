@@ -10,6 +10,9 @@
   &:first-child {
     justify-content: flex-end;
   }
+  @include tablets {
+    width: 90%;
+  }
 }
 
 .header__container-bottom {
