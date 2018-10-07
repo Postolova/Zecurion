@@ -1,6 +1,7 @@
 import 'owl.carousel';
 import './index.scss';
 import './assets/js/hero';
+import './assets/js/banner';
 
 // For All SVG
 function requireAll(r) {

@@ -1,9 +1,9 @@
 .main__section.banner
   .main__container
     .banner__slider
-      .banner__slider-window
-        ul.banner__slider-list
-          li.banner__slider-item
+      .banner__slider-window.owl-stage-outer
+        .banner__slider-list.owl-stage
+          .banner__slider-item.owl-item
             .banner__slider-title “ We can bе sure that Zecurion DLP successfully protects the information from leaks... ”
             .banner__slider-rating
               ul.banner__rating-list
@@ -24,7 +24,7 @@
                     +icon('star', 'banner__rating-img')
               .banner__rating-subtitle 5 stars from Gartner Рееr Insights
             button.banner__slider-btn(type="button") read more
-          li.banner__slider-item
+          .banner__slider-item.owl-item
             .banner__slider-title “ We can bе sure that Zecurion DLP successfully protects the information from leaks... ”
             .banner__slider-rating
               ul.banner__rating-list
@@ -45,7 +45,7 @@
                     +icon('star', 'banner__rating-img')
               .banner__rating-subtitle 5 stars from Gartner Рееr Insights
             button.banner__slider-btn(type="button") read more
-          li.banner__slider-item
+          .banner__slider-item.owl-item
             .banner__slider-title “ We can bе sure that Zecurion DLP successfully protects the information from leaks... ”
             .banner__slider-rating
               ul.banner__rating-list
@@ -66,6 +66,6 @@
                     +icon('star', 'banner__rating-img')
               .banner__rating-subtitle 5 stars from Gartner Рееr Insights
             button.banner__slider-btn(type="button") read more
-      .banner__slider-controls
-        button.banner__controls-slider.banner_controls-slider--prev(type="button")
-        button.banner__controls-slider.banner_controls-slider--next(type="button")
+      .banner__slider-controls.owl-nav
+        .banner__controls-slider.banner_controls-slider--prev.owl-prev(type="button")
+        .banner__controls-slider.banner_controls-slider--next.owl-next(type="button")
