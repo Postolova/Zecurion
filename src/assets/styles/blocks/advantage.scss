@@ -1,0 +1,28 @@
+.advantage__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage__item {
+  width: 30%;
+}
+
+.advantage__icon {
+  margin-bottom: 25px;
+}
+
+.advantage__img {
+  width: 64px;
+  height: 64px;
+  &:last-child {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.advantage__desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: $gray;
+}

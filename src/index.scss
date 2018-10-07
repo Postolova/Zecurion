@@ -1,5 +1,4 @@
 @import '../node_modules/normalize.css/normalize.css';
-@import '../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
 @import './assets/styles/layout/_fonts.scss';
 @import './assets/styles/config/variables.scss';
 @import './assets/styles/config/_mixins.scss';
@@ -7,6 +6,7 @@
 @import './assets/styles/sections/header.scss';
 @import './assets/styles/sections/hero.scss';
 @import './assets/styles/sections/prevention.scss';
+@import './assets/styles/blocks/advantage.scss';
 @import './assets/styles/sections/request.scss';
 @import './assets/styles/sections/support.scss';
 @import './assets/styles/sections/slider.scss';
