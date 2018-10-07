@@ -27,11 +27,13 @@
 }
 
 .hero__list {
-  list-style-type: disc;
+  list-style-type: circle;
   margin-bottom: 30px;
+  margin-left: 17px;
 }
 
 .hero__item {
+  display: list-item;
   font-size: 14px;
   color: $lightGray;
   margin-bottom: 15px;
