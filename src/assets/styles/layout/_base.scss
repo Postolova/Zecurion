@@ -97,6 +97,9 @@ address {
 .main__container {
   width: 70%;
   margin: 0 auto;
+  @include laptop {
+    width: 90%;
+  }
 }
 
 .main__title {
@@ -111,6 +114,18 @@ address {
     font-size: 72px;
     margin-top: 10px;
     line-height: 1;
+    @include laptop {
+      font-size: 60px;
+    }
+    @include tablets {
+      font-size: 50px;
+    }
+  }
+  @include laptop {
+    font-size: 60px;
+  }
+  @include tablets {
+    font-size: 50px;
   }
 }
 
@@ -124,7 +139,7 @@ address {
     background: transparent;
     color: $red;
     border: 2px solid $red;
-    width: 230px;
+    min-width: 230px;
     height: 40px;
     transition: .3s;
     &:hover {
@@ -138,7 +153,7 @@ address {
     background: $red;
     color: $white;
     border: 2px solid $red;
-    width: 230px;
+    min-width: 230px;
     height: 40px;
     transition: .3s;
     &:hover {
