@@ -30,6 +30,11 @@
         padding: rem(35px) rem(15px);
         height: rem(550px);
     }
+    @include hd {
+        width: 330px;
+        padding: rem(55px) rem(40px);
+        margin: 0 rem(20px);
+    }
 }
 
 
@@ -105,4 +110,7 @@
 
 .features__text {
     width: 90%;
+    @include hd {
+        font-size: 14px;
+    }
 }
