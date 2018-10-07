@@ -97,6 +97,9 @@ address {
 .main__container {
   width: 70%;
   margin: 0 auto;
+  @include laptop {
+    width: 90%;
+  }
 }
 
 .main__title {
@@ -111,9 +114,18 @@ address {
     font-size: 72px;
     margin-top: 10px;
     line-height: 1;
+    @include laptop {
+      font-size: 60px;
+    }
+    @include tablets {
+      font-size: 50px;
+    }
   }
   @include laptop {
     font-size: 60px;
+  }
+  @include tablets {
+    font-size: 50px;
   }
 }
 

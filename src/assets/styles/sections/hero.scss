@@ -44,11 +44,17 @@
 
 .hero__picture {
   width: 49%;
+  @include tablets {
+    width: 64%;
+  }
 }
 
 .hero__picture-img {
   width: 140%;
   object-fit: contain;
+  @include tablets {
+    width: 116%;
+  }
 }
 
 .hero__slider {

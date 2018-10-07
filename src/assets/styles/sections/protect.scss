@@ -21,6 +21,13 @@
         border: 1px solid $white;
         transition: .4s;
     }
+    @include tablets {
+        margin-bottom: 50px;
+    }
+}
+
+.protect-btns {
+    margin-bottom: 90px;
 }
 
 .protect__button--white {
@@ -35,6 +42,9 @@
         color: $red;
         background-color: $white;
         transition: .4s;
+    }
+    @include tablets {
+        width: 322px;
     }
 }
 
@@ -52,7 +62,14 @@
     width: 15%;
     &:nth-child(3) {
         width: 17%;
+        @include tablets {
+            width: 27%;
+        }
     }
+    @include tablets {
+        width: 25%;
+    }
+    
 }
 
 
@@ -76,12 +93,18 @@
 .steps__arrow {
     width: 140px;
     height: 71px;
+    @include tablets {
+        width: 110px;
+    }
 }
 
 .protect-head {
     width: 100%;
     margin: auto auto 50px;
     font-size: 70px;
+    @include tablets {
+        font-size: 60px;
+    }
 }
 
 .features {
