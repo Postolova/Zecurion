@@ -1,0 +1,24 @@
+.banner {
+  background-color: #f8f9fa;
+  -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+}
+
+.banner__slider-list {
+  width: 10000px;
+  display: flex;
+}
+.banner__slider-title {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.banner__rating-list {
+  display: flex;
+  justify-content: center;
+}
+
+.banner__rating-img {
+  width: 10px;
+  height: 10px;
+}
