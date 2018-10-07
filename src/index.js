@@ -1,3 +1,4 @@
+import 'owl.carousel';
 import './index.scss';
 import './assets/js/hero';
 

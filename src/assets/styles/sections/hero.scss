@@ -51,6 +51,11 @@
   object-fit: contain;
 }
 
+.hero__trusted {
+  color: $white;
+  margin-bottom: 30px;
+}
+
 .hero__slider {
   width: 100%;
   position: relative;
@@ -59,11 +64,6 @@
 .hero__slider-window {
   width: 90%;
   margin: 0 auto;
-}
-
-.hero__slider-list {
-  display: flex;
-  justify-content: space-between;
 }
 
 .hero__slider-icon {

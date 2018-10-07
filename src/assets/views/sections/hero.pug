@@ -12,21 +12,21 @@
       .hero__picture
         +image('hero_graphic.png','Graphic', 'hero__picture-img')
     h2.hero__trusted We аrе trusted by
-    .hero__slider
-      .hero__slider-window
-        ul.hero__slider-list
-          li.hero__slider-item
+    .hero__slider.owl-carousel.owl-theme.owl-loaded
+      .owl-stage-outer
+        .owl-stage
+          .owl-item
             +icon('logo_xbox', 'hero__slider-icon')
-          li.hero__slider-item
+          .owl-item
             +icon('logo_infiniti', 'hero__slider-icon')
-          li.hero__slider-item
+          .owl-item
             +icon('logo_gshock', 'hero__slider-icon')
-          li.hero__slider-item
+          .owl-item
             +icon('logo_ea', 'hero__slider-icon')
-          li.hero__slider-item
+          .owl-item
             +icon('logo_dell', 'hero__slider-icon')
-          li.hero__slider-item
+          .owl-item
             +icon('logo_github', 'hero__slider-icon')
-      .hero__slider-control
-        button.hero__slider-btn.hero_slider-btn--prev(type='button')
-        button.hero__slider-btn.hero_slider-btn--next(type='button')
+      .hero__slider-control.owl-nav
+        .hero__slider-btn.hero_slider-btn--prev.owl-prev(type='button')
+        .hero__slider-btn.hero_slider-btn--next.owl-next(type='button')
