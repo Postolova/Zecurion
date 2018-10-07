@@ -1,5 +1,5 @@
 .prevention {
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .prevention__titles {
@@ -17,6 +17,12 @@
   margin-bottom: 20px;
 }
 
+.prevention__video {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
 .prevention__btn-play {
   width: 80px;
   height: 80px;
@@ -25,6 +31,7 @@
   border: 2px solid $red;
   position: relative;
   margin-bottom: 20px;
+  background-color: transparent;
   &::after {
     display: block;
     content: '';
@@ -40,13 +47,12 @@
   }
 }
 
-.prevention__video {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .prevention__video-subtitle {
   color: $gray;
   font-size: 14px;
   font-weight: 400;
+}
+
+.prevention__advantage {
+  margin-bottom: 50px;
 }
