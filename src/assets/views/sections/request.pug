@@ -1,3 +1,8 @@
 .main__section.request
   .main__container
-    .main__title Full DLP capabilities at а fraction of the price. Send us а request and get а price quote
+    .main__title.request-title Full DLP capabilities at а fraction of the price. Send us а request and get а price quote
+    form.request__form
+      input.request__input(type="text" placeholder="Your email address")
+      button.main__button--red.request__button(type="submit") Get a price quote
+      a.request__link(href="#0") About Zecurion DLP 
+        +icon('arrow_down', 'request-link__img')

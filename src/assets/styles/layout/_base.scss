@@ -142,7 +142,7 @@ address {
     height: 40px;
     transition: .3s;
     &:hover {
-      border: 2px solid $white;
+      border: 1px solid $red;
       background-color: $white;
       color: $red;
     }
