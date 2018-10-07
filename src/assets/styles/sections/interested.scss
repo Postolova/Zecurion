@@ -2,8 +2,8 @@
     background-color: $white;
     -webkit-clip-path: polygon(0 0, 100% 5%, 100% 96%, 0 100%);
     clip-path: polygon(0 0, 100% 5%, 100% 96%, 0 100%);
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: rem(40px);
+    padding-bottom: rem(10px);
 }
 
 .features__list {
@@ -12,12 +12,14 @@
 }
 
 .features__column {
-    margin: 0 10px;
-    display: block;
+    margin: 0 rem(10px);
     background-color: $blue;
-    padding: 35px;
-    width: 260px;
-    height: 670px;
+    padding: rem(55px) rem(35px);
+    width: rem(260px);
+    height: rem(640px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .features__desc {
@@ -31,43 +33,65 @@
 }
 
 .features__heading {
-    font-size: 24px;
+    font-size: rem(24px);
     color: $white;
     font-family: "BebasNeueBold";
     text-align: left;
-    width: 95%;
 }
 
 .features__item {
     color: $lightGray;
-    font-size: 14px;
+    font-size: rem(12px);
     text-align: left;
+    margin-bottom: rem(10px);
+    display: flex;
 }
 
 .features__img {
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
+    width: rem(50px);
+    height: rem(50px);
+    margin-right: rem(15px);
 }
 
 .features__description {
     text-align: left;
     color: $white;
     text-align: left;
+    text-transform: uppercase;
+    font-size: rem(14px);
 }
 
 .features__desc {
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 400;
     text-align: left;
-    padding: 20px 0 20px;
+    padding: rem(20px) 0 rem(20px);
 }
 
 .features__btn {
     background-color: $white;
     color: $red;
-    width: 140px;
-    height: 30px;
-
+    width: 100%;
+    height: rem(35px);
+    align-self: flex-end;
+    border: 1px solid $white;
+    &:hover {
+        background-color: $red;
+        color: $white;
+        border: 1px solid $white;
+        transition: .2s;
+    }
 }
 
+.features__checkmark {
+    width: rem(16px);
+    height: rem(16px);
+    fill: $lightGray;
+    margin-right: rem(10px);
+    vertical-align: middle;
+    width: 10%;
+}
+
+.features__text {
+    width: 90%;
+}

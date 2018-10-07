@@ -120,6 +120,7 @@ address {
   font-weight: 600;
   &--white {
     font-weight: 600;
+    text-transform: uppercase;
     background: transparent;
     color: $red;
     border: 2px solid $red;
@@ -132,6 +133,7 @@ address {
     }
   }
   &--red {
+    text-transform: uppercase;
     font-weight: 600;
     background: $red;
     color: $white;
