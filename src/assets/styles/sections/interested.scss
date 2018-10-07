@@ -13,11 +13,13 @@
 
 .features__column {
     margin: 0 10px;
-    display: block;
     background-color: $blue;
-    padding: 35px;
+    padding: 55px 35px;
     width: 260px;
-    height: 670px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .features__desc {
@@ -35,13 +37,14 @@
     color: $white;
     font-family: "BebasNeueBold";
     text-align: left;
-    width: 95%;
 }
 
 .features__item {
     color: $lightGray;
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 .features__img {
@@ -54,6 +57,8 @@
     text-align: left;
     color: $white;
     text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .features__desc {
@@ -66,8 +71,27 @@
 .features__btn {
     background-color: $white;
     color: $red;
-    width: 140px;
-    height: 30px;
-
+    width: 100%;
+    height: 35px;
+    align-self: flex-end;
+    border: 1px solid $white;
+    &:hover {
+        background-color: $red;
+        color: $white;
+        border: 1px solid $white;
+        transition: .2s;
+    }
 }
 
+.features__checkmark {
+    width: 16px;
+    height: 16px;
+    fill: $lightGray;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.features__text {
+    width: 90%;
+}
