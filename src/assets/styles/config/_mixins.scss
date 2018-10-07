@@ -13,46 +13,35 @@
 }
 
 //responsive
+
 @function rem($px) {
   @return $px / 16px+0rem;
 }
 
 //mobile mixin
+
+
 @mixin hd {
-  @media screen and (min-width: 1440px) {
+  @media screen and (max-width: 1920px) {
     @content;
   }
 }
 
-// @mixin desktop {
-//   @media screen and (max-width: 1200px) {
-//     @content;
-//   }
-// }
 @mixin laptop {
-  @media screen and (min-width: 1048px) {
+  @media screen and (max-width: 990px) {
     @content;
   }
 }
 
 @mixin tablets {
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     @content;
   }
 }
 
-// @mixin phones-big {
-//   @media screen and (max-width: 414px) {
-//     @content;
-//   }
-// }
-// @mixin phones {
-//   @media screen and (max-width: 375px) {
-//     @content;
-//   }
-// }
-// @mixin phones-small {
-//   @media screen and (max-width: 320px) {
-//     @content;
-//   }
-// }
+@mixin phones {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+

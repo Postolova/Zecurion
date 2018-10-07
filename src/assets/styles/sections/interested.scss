@@ -15,7 +15,7 @@
     margin: 0 rem(10px);
     background-color: $blue;
     padding: rem(55px) rem(35px);
-    width: rem(260px);
+    min-width: rem(260px);
     height: rem(640px);
     display: flex;
     flex-direction: column;
