@@ -130,10 +130,6 @@ address {
     min-width: 230px;
     height: 40px;
     transition: .3s;
-    @include laptop {
-      min-width: 170px;
-      height: 30px;
-    }
     &:hover {
       background-color: $red;
       color: $white;
@@ -148,10 +144,6 @@ address {
     min-width: 230px;
     height: 40px;
     transition: .3s;
-    @include laptop {
-      min-width: 170px;
-      height: 30px;
-    }
     &:hover {
       border: 1px solid $red;
       background-color: $white;
