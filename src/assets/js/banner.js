@@ -1,12 +1,14 @@
-import './modules/slider';
-
 import $ from 'jquery';
 var owl = $('.banner__slider');
 $(document).ready(function() {
   $('.banner__slider').owlCarousel({
-    loop: true,
+    loop: false,
     margin: 10,
-    nav: true,
+    nav: false,
+    dots: false,
+    touchDrag: true,
+    autoplay: true,
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1

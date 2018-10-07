@@ -9,13 +9,12 @@
 
 .banner__slider {
   overflow: hidden;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   position: relative;
 }
 
 .banner__slider-list {
-  width: 10000px;
   display: flex;
 }
 
@@ -40,6 +39,10 @@
   margin-right: 10px;
 }
 
+.banner__slider-rating {
+  margin-bottom: 40px;
+}
+
 .banner__rating-img {
   width: 20px;
   height: 20px;
@@ -54,24 +57,22 @@
   justify-content: space-between;
 }
 
-.banner__controls-slider {
-  font-size: 32px;
-}
-
 .banner_controls-slider--prev {
   background: url('./assets/images/slider_arrow-left.png') center no-repeat;
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   opacity: .7;
   transition: .3s;
   &:hover {
     opacity: 1;
   }
 }
+
+
 .banner_controls-slider--next {
   background: url('./assets/images/slider_arrow-right.png') center no-repeat;
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   opacity: .7;
   transition: .3s;
   &:hover {
