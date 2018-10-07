@@ -53,6 +53,12 @@
 
 .hero__slider {
   width: 100%;
+  position: relative;
+}
+
+.hero__slider-window {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .hero__slider-list {
@@ -63,4 +69,35 @@
 .hero__slider-icon {
   width: 60px;
   height: 30px;
+}
+
+.hero__slider-control {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero_slider-btn--prev {
+  background: url('./assets/images/hero_arrow-left.png') center no-repeat;
+  width: 25px;
+  height: 25px;
+  opacity: .7;
+  transition: .3s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.hero_slider-btn--next {
+  background: url('./assets/images/hero_arrow-right.png') center no-repeat;
+  width: 25px;
+  height: 25px;
+  opacity: .7;
+  transition: .3s;
+  &:hover {
+    opacity: 1;
+  }
 }
