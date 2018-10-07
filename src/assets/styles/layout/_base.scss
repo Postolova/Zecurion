@@ -111,7 +111,7 @@ address {
     font-size: 72px;
     margin-top: 10px;
     line-height: 1;
-  };
+  }
 }
 
 .main__button {
@@ -129,8 +129,8 @@ address {
     &:hover {
       background-color: $red;
       color: $white;
-    };
-  };
+    }
+  }
   &--red {
     font-weight: 600;
     background: $red;
@@ -143,6 +143,6 @@ address {
       border: 2px solid $white;
       background-color: $white;
       color: $red;
-    };
-  };
+    }
+  }
 }
