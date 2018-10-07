@@ -52,9 +52,10 @@
 .hero__picture-img {
   width: 140%;
   object-fit: contain;
-  @include tablets {
+  @include laptop {
     width: 116%;
   }
+
 }
 
 .hero__trusted {
