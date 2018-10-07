@@ -41,6 +41,10 @@
   color: $lightGray;
   font-weight: 300;
   font-size: rem(12px);
+  &:hover {
+    color: $white;
+    transition: all .1s;
+  }
 }
 
 
@@ -73,6 +77,10 @@
 .socials__pics {
   width: rem(20px);
   height: rem(20px);
+  &:hover {
+    opacity: .5;
+    transition: .2s;
+  }
 }
 
 .contacts {
@@ -93,6 +101,12 @@
 }
 .contacts__btn {
   margin-left: rem(10px);
+  &:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: .2s;
+  }
 }
 
 .contacts__copyright {
@@ -108,4 +122,8 @@
   color: $lightGray;
   font-size: 12px;
   margin-right: rem(10px);
+  &:hover {
+    color: $white;
+    transition: all .1s;
+  }
 }
