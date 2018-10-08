@@ -69,7 +69,6 @@
     width: 118%;
     margin-top: -19px;
   }
-
 }
 
 .hero__trusted {
@@ -113,6 +112,7 @@
 
 .hero_slider-btn--prev {
   background: url('./assets/images/hero_arrow-left.png') center no-repeat;
+  background-size: contain;
   width: 25px;
   height: 25px;
   opacity: .7;
@@ -124,6 +124,7 @@
 
 .hero_slider-btn--next {
   background: url('./assets/images/hero_arrow-right.png') center no-repeat;
+  background-size: contain;
   width: 25px;
   height: 25px;
   opacity: .7;

@@ -12,7 +12,7 @@
       .hero__picture
         +image('hero_graphic.png','Graphic', 'hero__picture-img')
     h2.hero__trusted We аrе trusted by
-    .hero__slider.owl-carousel.owl-theme.owl-loaded
+    .hero__slider.owl-carousel.owl-loaded
       .owl-stage-outer
         .owl-stage
           .owl-item
@@ -28,5 +28,5 @@
           .owl-item
             +icon('logo_github', 'hero__slider-icon')
       .hero__slider-control.owl-nav
-        .hero__slider-btn.hero_slider-btn--prev.owl-prev(type='button')
-        .hero__slider-btn.hero_slider-btn--next.owl-next(type='button')
+        button.slider__btn.hero_slider-btn--prev(type='button')
+        button.slider__btn.hero_slider-btn--next(type='button')
